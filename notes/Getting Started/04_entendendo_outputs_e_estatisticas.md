@@ -13,7 +13,9 @@ Nesse arquivo, cada instância de um SimObject tem suas próprias estatísticas.
 
 ### Uma pequena nota sobre o descarregamento de estatísticas
 ---
+
 "Mas por quê essa seção apareceria tantas vezes?" Você se pergunta. A resposta é bem simples. Em simulações muito longas em que seja necessário o monitoramento de momentos específicos, ou mesmo etapas intermediárias em que é necessário o monitoramento dessas situações em específico, temos os chamados "checkpoints", que são pontos de retomada e que permitem pausar e continuar a simulação de um ponto previamente salvo. Os checkpoints são úteis para economizar tempo, especialmente em simulações complexas que levariam muito tempo para serem concluídas de uma só vez.
+
 ---
 
 Após essas estatísticas serem emitidas, temos a exibição do estado atual das estatísitcas de todos os SimObjects. Boa parte das estatísticas é autoexplicativa. Algumas mais importantes são: 
