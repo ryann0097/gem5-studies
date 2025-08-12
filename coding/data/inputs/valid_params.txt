@@ -1,0 +1,97 @@
+Config 02:
+  cpu-issue: 2
+  cpu-iq-entries: 32
+  cpu-lq-entries: 32
+  cpu-sq-entries: 4
+  cpu-rob-entries: 32
+  cpu-phy-intreg: 64
+  cpu-phy-floatreg: 128
+  dcache-size: 32768
+  icache-size: 16384
+  l2cache-size: 262144
+  l3cache-size: 2097152
+  dcache-latency: 8
+
+Config 03:
+  cpu-issue: 4
+  cpu-iq-entries: 32
+  cpu-lq-entries: 16
+  cpu-sq-entries: 8
+  cpu-rob-entries: 64
+  cpu-phy-intreg: 256
+  cpu-phy-floatreg: 256
+  dcache-size: 16384
+  icache-size: 65536
+  l2cache-size: 2097152
+  l3cache-size: 524288
+  dcache-latency: 7
+
+Config 06:
+  cpu-issue: 2
+  cpu-iq-entries: 8
+  cpu-lq-entries: 4
+  cpu-sq-entries: 16
+  cpu-rob-entries: 32
+  cpu-phy-intreg: 256
+  cpu-phy-floatreg: 128
+  dcache-size: 65536
+  icache-size: 16384
+  l2cache-size: 524288
+  l3cache-size: 1048576
+  dcache-latency: 9
+
+Config 08:
+  cpu-issue: 8
+  cpu-iq-entries: 8
+  cpu-lq-entries: 64
+  cpu-sq-entries: 32
+  cpu-rob-entries: 128
+  cpu-phy-intreg: 128
+  cpu-phy-floatreg: 256
+  dcache-size: 16384
+  icache-size: 32768
+  l2cache-size: 524288
+  l3cache-size: 524288
+  dcache-latency: 5
+
+Config 12:
+  cpu-issue: 8
+  cpu-iq-entries: 128
+  cpu-lq-entries: 16
+  cpu-sq-entries: 32
+  cpu-rob-entries: 16
+  cpu-phy-intreg: 64
+  cpu-phy-floatreg: 64
+  dcache-size: 16384
+  icache-size: 32768
+  l2cache-size: 1048576
+  l3cache-size: 524288
+  dcache-latency: 1
+
+Config 16:
+  cpu-issue: 1
+  cpu-iq-entries: 64
+  cpu-lq-entries: 8
+  cpu-sq-entries: 64
+  cpu-rob-entries: 64
+  cpu-phy-intreg: 64
+  cpu-phy-floatreg: 256
+  dcache-size: 16384
+  icache-size: 65536
+  l2cache-size: 131072
+  l3cache-size: 2097152
+  dcache-latency: 2
+
+Config 18:
+  cpu-issue: 4
+  cpu-iq-entries: 128
+  cpu-lq-entries: 32
+  cpu-sq-entries: 16
+  cpu-rob-entries: 64
+  cpu-phy-intreg: 256
+  cpu-phy-floatreg: 64
+  dcache-size: 16384
+  icache-size: 32768
+  l2cache-size: 131072
+  l3cache-size: 1048576
+  dcache-latency: 7
